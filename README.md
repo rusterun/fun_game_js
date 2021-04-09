@@ -1,1 +1,1 @@
-<h1>Just click on [link](https://rusterun.github.io/fun_game_js/)</h1>
+<h1>Just click on <a href="https://rusterun.github.io/fun_game_js/">link</a></h1>

@@ -1,0 +1,35 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script src="./script.js"></script>
+	<style>
+	#linka {
+	    position: absolute;
+	    font-size: 24px;
+	    color: blue;
+	}
+
+	.back {
+	    position: relative;
+	    margin-left: 30%;
+	    background-color: gray;
+	    height: 300px;
+	    width: 300px;
+	}
+	</style>
+</head>
+<body>
+	<div>
+		<h1>Цель - нажать на ссылку</h1>
+		<h2>Уровень сложности: [<span id="difficult">MEDIUM</span>]</h2>
+		<button id="easy" onclick="hard=false; easy=true; document.getElementById('difficult').innerHTML='EASY';">EASY</button>
+		<button id="medium" onclick="hard=false; easy=false; document.getElementById('difficult').innerHTML='MEDIUM';">MEDIUM</button>
+		<button id="hard" onclick="hard=true; easy=false; document.getElementById('difficult').innerHTML='HARD';">HARD</button>
+	</div>
+
+	<div class="back" id="linka2">
+		<a href='https://vk.com/ivan_ss' id="linka">Click at me</a>
+	</div>
+
+</body>
+</html>

@@ -8,6 +8,7 @@ window.onload = function() {
 	if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
 	// код для мобильных устройств
 		alert('Извините, но игра не поддерживается на мобильных устройствах');
+		document.getElementById("textblock").innerHTML = "";
 		el2.style.width = screen.width;
 		el2.style.height = screen.height;
 		diff.innerHTML = "";

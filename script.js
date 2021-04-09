@@ -13,7 +13,7 @@ window.onload = function() {
 		el2.style.height = screen.height;
 		diff.innerHTML = "";
 		element.href = "";
-		element.innerHTML = "<h1>Извините,<br> но игра<br> не поддерживается<br> на мобильных<br> устройствах</h1>";
+		element.innerHTML = "<h1>Извините, но игра не поддерживается на мобильных устройствах</h1>";
 	} else {
 		element.style.top = "0px";
 		//el.style.top = "276px";

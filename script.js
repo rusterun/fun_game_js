@@ -5,7 +5,6 @@ window.onload = function() {
 	if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
 	// код для мобильных устройств
 		alert('Извините, но игра не поддерживается на мобильных устройствах');
-		window.close();
 	} else {
 		var diff = document.getElementById('difficult');
 		var el2 = document.getElementById("linka2");
